@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Drawing;
 
 using MonoTouch.Foundation;
@@ -9,7 +8,8 @@ namespace ViewShaker.Example
 {
 	public partial class ExampleViewController : UIViewController
 	{
-		public ExampleViewController() : base("ExampleViewController", null)
+		public ExampleViewController()
+			: base("ExampleViewController", null)
 		{
 		}
 
