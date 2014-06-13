@@ -1,12 +1,5 @@
-mono xamarin-component/xamarin-component.exe create-manually sample-component-1.0.xam \
-    --name="View Shaker animation helper" \
-    --summary="An animation helper which adds a shaking effect to your views." \
-    --publisher="Robert Waggott" \
-    --website="https://github.com/robert-waggott/Xamarin.ViewShaker" \
-    --details="Details.md" \
-    --license="License.md" \
-    --getting-started="GettingStarted.md" \
-    --icon="icons/awesome_128x128.png" \
-    --icon="icons/awesome_512x512.png" \
-    --library="ios":"bin/Awesome.iOS.dll" \
-    --sample="iOS Sample. Demonstrates Awesomeness on iOS.":"samples/Awesome.iOS.sln"
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
