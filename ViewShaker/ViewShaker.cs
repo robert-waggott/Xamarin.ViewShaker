@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using MonoTouch.UIKit;
+
 using MonoTouch.CoreAnimation;
 using MonoTouch.Foundation;
+using MonoTouch.UIKit;
 
 namespace ViewShaker
 {
