@@ -8,4 +8,5 @@ mono xamarin-component.exe create-manually ViewShaker-1.0.xam \
     --getting-started="GettingStarted.md" \
     --icon="ViewShaker_128x128.png" \
     --icon="ViewShaker_512x512.png" \
-    --library="ios":"ViewShaker.dll"
+    --library="ios":"ViewShaker.dll" \
+    --sample="iOS Sample.":"Sample.sln"    

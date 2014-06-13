@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AD0CC70000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163E19650000000000000000 /* UIKit.framework */; };
+		3442AFFA0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D3BC980000000000000000 /* MapKit.framework */; };
+		976189200000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07253000000000000000000 /* Foundation.framework */; };
+		3CE0FADB0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720779000000000000000000 /* CoreGraphics.framework */; };
+		1FC6645C0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235770FA0000000000000000 /* Default-568h@2x.png */; };
+		34F9CCF40000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 388AD9920000000000000000 /* Info.plist */; };
+		23248DDE0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26B59A7C0000000000000000 /* Entitlements.plist */; };
+		114F4EC80000000000000000 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B660000000000000000 /* ExampleViewController.xib */; };
+		183E84E80000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF91860000000000000000 /* AppDelegate.h */; };
+		19BAB68D0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4BC32B0000000000000000 /* AppDelegate.m */; };
+		327F2BC30000000000000000 /* ExampleViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 361038610000000000000000 /* ExampleViewController.h */; };
+		7B2945B00000000000000000 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A0F900000000000000000 /* ExampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4836C00000000000000000 /* ViewShaker.Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ViewShaker.Example.app"; path = "ViewShaker.Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163E19650000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		37D3BC980000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		D07253000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		720779000000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		235770FA0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		388AD9920000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		26B59A7C0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		14E05B660000000000000000 /* ExampleViewController.xib */ = {isa = PBXFileReference; name = "ExampleViewController.xib"; path = "ExampleViewController.xib"; sourceTree = "<group>"; };
+		1BCF91860000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		1D4BC32B0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		361038610000000000000000 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ExampleViewController.h"; path = "ExampleViewController.h"; sourceTree = "<group>"; };
+		B43A0F900000000000000000 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ExampleViewController.m"; path = "ExampleViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F5058F20000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AD0CC70000000000000000 /* UIKit.framework in Frameworks */,
+				3442AFFA0000000000000000 /* MapKit.framework in Frameworks */,
+				976189200000000000000000 /* Foundation.framework in Frameworks */,
+				3CE0FADB0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69CA8000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3A037ECC0000000000000000 /* ViewShaker.Example */,
+				1A1CF05A0000000000000000 /* Frameworks */,
+				4B6A4A600000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B6A4A600000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4836C00000000000000000 /* ViewShaker.Example.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1A1CF05A0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				163E19650000000000000000 /* UIKit.framework */,
+				37D3BC980000000000000000 /* MapKit.framework */,
+				D07253000000000000000000 /* Foundation.framework */,
+				720779000000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3A037ECC0000000000000000 /* ViewShaker.Example */ = {
+			isa = PBXGroup;
+			children = (
+				1BCF91860000000000000000 /* AppDelegate.h */,
+				235770FA0000000000000000 /* Default-568h@2x.png */,
+				26B59A7C0000000000000000 /* Entitlements.plist */,
+				361038610000000000000000 /* ExampleViewController.h */,
+				14E05B660000000000000000 /* ExampleViewController.xib */,
+				388AD9920000000000000000 /* Info.plist */,
+				1B9CAE6A0000000000000000 /* Supporting Files */,
+			);
+			name = "ViewShaker.Example";
+			sourceTree = "<group>";
+		};
+		1B9CAE6A0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D4BC32B0000000000000000 /* AppDelegate.m */,
+				B43A0F900000000000000000 /* ExampleViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		158D74300000000000000000 /* ViewShaker.Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129510E60000000000000000 /* Build configuration list for PBXNativeTarget "ViewShaker.Example" */;
+			buildPhases = (
+				1D7B19DC0000000000000000 /* Sources */,
+				2F5058F20000000000000000 /* Frameworks */,
+				665B96700000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViewShaker.Example";
+			productName = "ViewShaker.Example";
+			productReference = 1D4836C00000000000000000 /* ViewShaker.Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA4E5600000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7E1EB0C00000000000000000 /* Build configuration list for PBXProject "ViewShaker.Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F69CA8000000000000000000;
+			productRefGroup = 4B6A4A600000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158D74300000000000000000 /* ViewShaker.Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665B96700000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC6645C0000000000000000 /* Default-568h@2x.png in Resources */,
+				34F9CCF40000000000000000 /* Info.plist in Resources */,
+				23248DDE0000000000000000 /* Entitlements.plist in Resources */,
+				114F4EC80000000000000000 /* ExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7B19DC0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183E84E80000000000000000 /* AppDelegate.h in Sources */,
+				19BAB68D0000000000000000 /* AppDelegate.m in Sources */,
+				327F2BC30000000000000000 /* ExampleViewController.h in Sources */,
+				7B2945B00000000000000000 /* ExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E1CB100000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3D2EC5320000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "ViewShaker.Example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1EB0C00000000000000000 /* Build configuration list for PBXProject "ViewShaker.Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E1CB100000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		129510E60000000000000000 /* Build configuration list for PBXNativeTarget "ViewShaker.Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2EC5320000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA4E5600000000000000000 /* Project object */;
+}
