@@ -1,12 +1,30 @@
-mono xamarin-component/xamarin-component.exe create-manually sample-component-1.0.xam \
-    --name="View Shaker animation helper" \
-    --summary="An animation helper which adds a shaking effect to your views." \
-    --publisher="Robert Waggott" \
-    --website="https://github.com/robert-waggott/Xamarin.ViewShaker" \
-    --details="Details.md" \
-    --license="License.md" \
-    --getting-started="GettingStarted.md" \
-    --icon="icons/awesome_128x128.png" \
-    --icon="icons/awesome_512x512.png" \
-    --library="ios":"bin/Awesome.iOS.dll" \
-    --sample="iOS Sample. Demonstrates Awesomeness on iOS.":"samples/Awesome.iOS.sln"
+Reference the component and adding a Using statement to `ViewShaker`.
+
+In your `ViewDidLoad` event create a new reference to `ViewShaker` passing in either a single `UIView` or an `IList<UIView>`.
+
+```
+	public override void ViewDidLoad()
+	{
+		base.ViewDidLoad();
+
+		var viewShaker = new ViewShaker(this.viewToShake);
+
+		viewShaker.AnimationCompleted += this.OnAnimationCompleted;
+
+		btnShake.TouchUpInside += (sender, e) => 
+		{
+			viewShaker.Shake();
+		};		
+	}
+	
+	private void OnAnimationCompleted(object sender, EventArgs e)
+	{
+	    new UIAlertView("Animation Finished", 
+	        "Animation Finished", 
+	        null, 
+	        "OK", 
+	        null).Show();
+	}	
+```
+
+The animation duration defaults to 0.5 seconds. 
