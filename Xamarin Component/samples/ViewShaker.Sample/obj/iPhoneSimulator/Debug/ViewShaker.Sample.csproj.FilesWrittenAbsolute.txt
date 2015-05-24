@@ -1,0 +1,8 @@
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/obj/iPhoneSimulator/Debug/ibtool/ExampleViewController.nib
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/obj/iPhoneSimulator/Debug/Default-568h@2x.png
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/bin/iPhoneSimulator/Debug/ViewShakerExample.exe.mdb
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/bin/iPhoneSimulator/Debug/ViewShakerExample.exe
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/obj/iPhoneSimulator/Debug/ViewShakerExample.exe
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/obj/iPhoneSimulator/Debug/ViewShakerExample.exe.mdb
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/Xamarin Component/samples/ViewShaker.Sample/bin/iPhoneSimulator/Debug/ViewShaker.dll

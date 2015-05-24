@@ -1,0 +1,5 @@
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/ViewShaker/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/ViewShaker/bin/Release/ViewShaker.dll.mdb
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/ViewShaker/bin/Release/ViewShaker.dll
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/ViewShaker/obj/Release/ViewShaker.dll
+/Users/robertwaggott/Code/_Github/Xamarin.ViewShaker/ViewShaker/obj/Release/ViewShaker.dll.mdb

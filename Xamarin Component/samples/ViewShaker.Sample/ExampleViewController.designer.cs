@@ -4,7 +4,7 @@
 // actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
-using MonoTouch.Foundation;
+using Foundation;
 using System.CodeDom.Compiler;
 
 namespace ViewShaker.Example
@@ -13,10 +13,10 @@ namespace ViewShaker.Example
 	partial class ExampleViewController
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnShake { get; set; }
+		UIKit.UIButton btnShake { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIView viewToShake { get; set; }
+		UIKit.UIView viewToShake { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
