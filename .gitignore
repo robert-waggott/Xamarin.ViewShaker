@@ -1,5 +1,5 @@
 *.userprefs
 *.xam
-ViewShaker.Example/bin
-ViewShaker.Example/obj
-ViewShaker/bin
+*.zip
+bin
+obj
