@@ -6,7 +6,7 @@
     <owners>Rob Waggott</owners>
     <licenseUrl>https://github.com/robert-waggott/Xamarin.ViewShaker/blob/master/XamarinComponent/License.md</licenseUrl>
     <projectUrl>https://github.com/robert-waggott/Xamarin.ViewShaker</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/robert-waggott/Xamarin.ViewShaker/master/XamarinComponent/icons/ViewShaker_64x64.png</iconUrl>
     <id>xamariniosviewShaker</id>
     <title>Xamarin.iOS ViewShaker</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
