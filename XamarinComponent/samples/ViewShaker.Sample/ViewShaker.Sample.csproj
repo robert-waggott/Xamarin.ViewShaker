@@ -94,8 +94,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="ViewShaker">
-      <HintPath>ViewShaker.dll</HintPath>
+    <Reference Include="ViewShaker.Unified">
+      <HintPath>ViewShaker.Unified.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
