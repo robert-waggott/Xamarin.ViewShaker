@@ -6,6 +6,7 @@
     <owners>Rob Waggott</owners>
     <licenseUrl>https://github.com/robert-waggott/Xamarin.ViewShaker/blob/master/XamarinComponent/License.md</licenseUrl>
     <projectUrl>https://github.com/robert-waggott/Xamarin.ViewShaker</projectUrl>
+    <iconUrl></iconUrl>
     <id>xamariniosviewShaker</id>
     <title>Xamarin.iOS ViewShaker</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,6 +15,6 @@
     <copyright>Copyright Rob Waggott © 2015</copyright>
   </metadata>
   <files>
-    <file src="build/**/*.*" target="lib\Xamarin.iOS10" />
+    <file src="XamarinComponent/lib/ViewShaker.dll" target="lib\Xamarin.iOS10" />
   </files>
 </package>
